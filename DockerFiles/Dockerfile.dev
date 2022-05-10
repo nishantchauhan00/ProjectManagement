@@ -1,0 +1,11 @@
+# SET BASE IMAGE
+FROM alpine
+
+
+# COPY FILES INTO CONTAINER AND BUILD PROJECT JAR
+COPY . .
+RUN mvn clean install
+
+
+# SET STARTUP COMMAND FOR CONTAINER
+CMD mvn spring-boot:run

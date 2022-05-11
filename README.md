@@ -1,2 +1,2 @@
 # ProjectManagement
-An app which helps to maintain projects info, its tasks and their time.
+An app which helps to maintain projects information, its tasks and their time.
